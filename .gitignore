@@ -1,0 +1,4 @@
+*.npy
+*.pkl
+*.ipynb
+*.pyc
