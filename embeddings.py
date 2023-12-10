@@ -18,7 +18,7 @@ def split_array_into_batches(arr, batch_size):
 arrs=split_array_into_batches(q1arr,1500)
 q2arrs=split_array_into_batches(q2arr,1500)
 
-co = cohere.Client('0FiLbG0mGy9TE4z9Deyi3xViodil62zAnAgmBaTg') # This is your trial API key
+co = cohere.Client('xxx') # This is your trial API key
 
 q1_embeddings = []  # List to store embeddings from all batches
 
